@@ -34,7 +34,7 @@ To reproduce the main experiments, the minimal requirements are `scipy einops tq
 
 # Experiments
 
-To reproduce the [affNIST](http://www.cs.toronto.edu/tijmen/affNIST) results from Section 5, for the $\mathbb{R}^{2} \rtimes \mathrm{SL}(2, \mathbb{R})$ group:
+To reproduce the [affNIST](http://www.cs.toronto.edu/~tijmen/affNIST) results from Section 5, for the $\mathbb{R}^{2} \rtimes \mathrm{SL}(2, \mathbb{R})$ group:
 ```shell
 python train.py --amp --liegroup=sl2 --gsamples=10
 ```
